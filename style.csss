@@ -1,14 +1,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
 
 :root {
-    --cor-destaque: #e3acf7;
-    --cor-gradiente-preto: linear-gradient(113deg, #fffefe 0%, #8d8d8d 44.96%, #560364 100%);
+    --cor-destaque: #d014edff;
+    --cor-gradiente-preto: linear-gradient(113deg, #c8aaedff 0%, #ffffffff 44.96%, #b0d1f1ff 100%);
 }
 
 * {
     margin: 0;
     padding: 0;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-family: Ariel;
 }
 
 body {
@@ -36,7 +36,7 @@ h1 {
     text-align: center;
     font-size: 2.8rem;
     font-weight: 500;
-    text-transform: lowercase;
+    text-transform: uppercase;
 }
 
 #entrada-de-texto {
@@ -47,12 +47,12 @@ h1 {
     gap: 0.625rem;
     align-self: stretch;
     border-radius: 0.625rem;
-    background: #7e38a9;
+    background: #FFF;
     font-size: 2rem;
 }
 
 #entrada-de-texto::placeholder {
-    color: #9d1e88;
+    color: #828282ff;
     font-size: 2rem;
     font-weight: 400;
     line-height: normal;
@@ -67,7 +67,7 @@ h1 {
     border-radius: 0.5rem;
     border: none;
     background: var(--cor-destaque);
-    color: #060c84;
+    color: #000;
     font-size: 2.5rem;
     font-weight: 500;
     line-height: normal;
